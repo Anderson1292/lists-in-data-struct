@@ -22,7 +22,7 @@ In a linked list, for each new element inserted in the structure, we allocate a
 memory space to store it. In this way, the total memory space spent
 by the structure is proportional to the number of elements stored in it.
 
-![Image vector](https://www.google.com/url?sa=i&url=http%3A%2F%2Feduardolucio.blogspot.com%2F2015%2F09%2Faprenda-implementar-uma-lista-encadeada.html&psig=AOvVaw2dNeiJ366WATSs2YmmcrbK&ust=1681048598472000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjbhZe4mv4CFQAAAAAdAAAAABAJ)
+![Image linked list](https://www.google.com/url?sa=i&url=http%3A%2F%2Feduardolucio.blogspot.com%2F2015%2F09%2Faprenda-implementar-uma-lista-encadeada.html&psig=AOvVaw2dNeiJ366WATSs2YmmcrbK&ust=1681048598472000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjbhZe4mv4CFQAAAAAdAAAAABAJ)
 
 The structure consists of a linked sequence of elements, generally called
 we from the list. The list is represented by a pointer to the first element (or node).
