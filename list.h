@@ -20,3 +20,6 @@ void remove_lista(Lista *l, int info);
 
 //Função que libera o espaço alocado por uma lista
 void libera_lista(Lista *l);
+
+//Função que ordena os valores de uma lista
+Lista* lista_insere_ordenado(Lista *l,int info);

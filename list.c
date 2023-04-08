@@ -67,3 +67,25 @@ void libera_lista(Lista *l){
 		l = lProx;
 	}
 }
+Lista* lista_insere_ordenado(Lista *l,int info){
+	Lista *lNew = (Lista*)malloc(sizeof(Lista));
+	lNew->info = info;
+	if(l == NULL){
+		lNew->prox = NULL;
+		return lNew;
+	} else if(l->info >= info){
+		lNew->prox = l;
+		return lNew;
+	} else{
+		Lista *lAnt = l;
+		Lista *lProx = l->prox;
+		while(lProx !=  NULL && lProx->info < info){
+			lAnt = lProx;
+			lProx = lProx->prox;
+		}
+		lAnt->prox = lNew;
+		lNew->prox = lProx;
+		return l;
+	}
+	
+}
